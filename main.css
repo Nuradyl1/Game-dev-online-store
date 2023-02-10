@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap');
+
+@import "./header/css/style.css";
+@import "./intro/css/style.css";
+@import "./cards/css/style.css";
+@import "./content/css/style.css";
+@import "./function/css/style.css";
+@import "./projects/css/style.css";
+@import "./footer/css/style.css";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins';
+    color: white;
+}
+
+body {
+    background-image: url(./intro/assets/main.png) no-repeat;
+    background-color: black;
+
+    position: relative;
+}
+
+#main {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+
+@media screen and (max-width:768px){
+    #main {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    #main {
+        /* right: 100px; */
+        display: none;
+    }
+}
+main {
+    box-sizing: border-box;
+
+    background: transparent;
+}
+
+.little-title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.gradient {
+    background: linear-gradient(180.96deg, #000000 0.82%, #4e2b04 129.1%);
+}

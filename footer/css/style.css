@@ -1,0 +1,96 @@
+.footer-block .footer-block-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  border-bottom: 0.8px solid #D2D2D2;
+  padding: 80px 130px 53px;
+}
+.footer-block .footer-block-content h5 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  padding-bottom: 15px;
+}
+.footer-block .footer-block-content .logo-block {
+  display: flex;
+  flex-direction: column;
+}
+.footer-block .footer-block-content .logo-block .logo {
+  font-weight: 800;
+  font-size: 29px;
+  padding-bottom: 15px;
+}
+.footer-block .footer-block-content .logo-block p {
+  padding-bottom: 25px;
+}
+.footer-block .footer-block-content .about-us h5 {
+  padding-bottom: 15px;
+}
+.footer-block .footer-block-content .about-us ul {
+  list-style: none;
+  padding: 0 20px 15px 0;
+}
+.footer-block .footer-block-content .contact-us p {
+  padding-bottom: 12px;
+  padding-left: -20px;
+}
+.footer-block .footer-block-content .social-media {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.footer-block .auth-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-block .auth-block h4 {
+  font-weight: 400;
+  font-size: 13px;
+  margin: 30px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-block .footer-block-content {
+    padding: 0 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+  }
+  .footer-block .footer-block-content .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-block .auth-block h4 {
+    margin: 20px 0px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer-block .footer-block-content {
+    padding: 0 30px;
+  }
+  .footer-block .footer-block-content .logo-block .logo {
+    font-size: 16px;
+  }
+  .footer-block .footer-block-content .logo-block p {
+    font-size: 9px;
+  }
+  .footer-block .footer-block-content .about-us h5 {
+    font-size: 16px;
+  }
+  .footer-block .footer-block-content .about-us ul li {
+    font-size: 14px;
+  }
+  .footer-block .footer-block-content .contact-us h5 {
+    font-size: 16px;
+  }
+  .footer-block .footer-block-content .contact-us p {
+    font-size: 9px;
+  }
+  .footer-block .footer-block-content .contact-us span {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

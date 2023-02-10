@@ -1,0 +1,136 @@
+.footer-block {
+    .footer-block-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+
+        border-bottom: 0.8px solid #D2D2D2;
+
+        padding: 80px 130px 53px;
+        h5 {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 26px;
+            padding-bottom: 15px;
+        }
+
+        .logo-block {
+            display: flex;
+            flex-direction: column;
+
+            .logo {            
+                font-weight: 800;
+                font-size: 29px;
+                padding-bottom: 15px;
+
+            }
+
+            p {
+                padding-bottom: 25px;
+            }
+        }
+        .about-us {
+
+            h5 {
+                padding-bottom: 15px;
+            }
+            ul {
+                list-style: none;
+                padding: 0 20px 15px 0;
+            }
+        }
+
+        .contact-us {
+            p {
+                padding-bottom: 12px;
+                padding-left: -20px;
+            }
+        }
+
+        .social-media {
+            display: flex;
+            gap: 16px;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    }
+
+    .auth-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h4 {
+            font-weight: 400;
+            font-size: 13px;
+            margin: 30px 0px;
+        }
+    }
+}
+
+@media  screen and (max-width:768px) {
+    .footer-block {
+
+        .footer-block-content {
+            padding: 0 50px;
+            box-sizing: border-box;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr; 
+           grid-row-gap: 30px;
+           grid-column-gap: 30px;
+
+           .social-media {
+            display: flex;
+            justify-content: center;
+            // height: 50%;
+           }
+        }
+
+        .auth-block {
+            h4 {margin: 20px 0px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .footer-block {
+        .footer-block-content {
+
+            padding: 0 30px;
+            .logo-block {
+                .logo {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 9px;
+                }
+            }
+
+            .about-us {
+                h5 {
+                    font-size: 16px;
+                }
+                ul {
+                    li {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .contact-us {
+                h5 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 9px;
+                }
+
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

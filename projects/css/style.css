@@ -1,0 +1,234 @@
+.projects {
+  padding: 140px 130px 0;
+  margin-bottom: 160px;
+}
+.projects h3 {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.projects p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.projects__picture {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.projects__picture .one, .projects__picture .two {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.projects .see-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+}
+.projects .buttom-content p {
+  display: flex;
+  justify-content: flex-start;
+}
+.projects .buttom-content .input-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  background: #1C140F;
+  border-radius: 15px;
+}
+.projects .buttom-content .input-content .input-content-1 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.projects .buttom-content .input-content .input-content-1 h5 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-left: 56px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.projects .buttom-content .input-content .input-content-1 p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  padding-top: 10px;
+  margin-left: 56px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.projects .buttom-content .input-content .input-content-2 {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.projects .buttom-content .input-content .input-content-2 input {
+  margin: 71px 50px 71px 0px;
+  width: 80%;
+  height: 20%;
+  border-radius: 8px;
+}
+.projects .buttom-content .input-content .input-content-2 button {
+  width: 35%;
+  height: 15%;
+  color: black;
+  position: absolute;
+  margin-right: 57px;
+  background: #DC7000;
+  border-radius: 8px;
+  border: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects {
+    padding: 0 100px;
+    box-sizing: border-box;
+  }
+  .projects h3 {
+    padding-top: 50px;
+  }
+  .projects__picture .one, .projects__picture .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects__picture .one img, .projects__picture .two img {
+    width: 50%;
+  }
+  .projects .see-all {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 30px 350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  .projects h3 {
+    padding: 100px 25px 15px;
+    box-sizing: border-box;
+  }
+  .projects p {
+    padding: 0 40px 25px;
+  }
+  .projects__picture .one {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .projects__picture .one img {
+    width: 70%;
+  }
+  .projects__picture .two {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .projects__picture .two img {
+    width: 70%;
+    height: auto;
+  }
+  .projects .see-all {
+    width: 150px;
+    display: flex;
+    justify-items: center;
+    margin: 60px auto;
+  }
+  .projects .buttom-content .little-title {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .projects .buttom-content p {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+  .projects .buttom-content .input-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    box-sizing: border-box;
+  }
+  .projects .buttom-content .input-content .input-content-1 {
+    width: 100%;
+  }
+  .projects .buttom-content .input-content .input-content-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 41px;
+    justify-items: flex-start;
+    box-sizing: border-box;
+  }
+  .projects .buttom-content .input-content .input-content-2 input {
+    height: 45px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 150px;
+  }
+  .projects .buttom-content .input-content .input-content-2 button {
+    height: 35px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 155px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .projects {
+    padding: 0 30px;
+    margin-bottom: 60px;
+  }
+  .projects h3 {
+    font-size: 20px;
+  }
+  .projects p {
+    font-size: 14px;
+  }
+  .projects__picture {
+    padding: 0;
+  }
+  .projects__picture .two #big {
+    height: auto;
+  }
+  .projects .buttom-content .little-title {
+    display: flex;
+    justify-content: center;
+  }
+  .projects .buttom-content p {
+    display: flex;
+    justify-content: center;
+  }
+  .projects .buttom-content .input-content .input-content-1 h5 {
+    font-size: 16px;
+  }
+  .projects .buttom-content .input-content .input-content-1 p {
+    font-size: 11px;
+  }
+  .projects .buttom-content .input-content .input-content-2 input {
+    height: 30px;
+    width: 250px;
+  }
+  .projects .buttom-content .input-content .input-content-2 .continue {
+    height: 25px;
+    width: 80px;
+  }
+}/*# sourceMappingURL=style.css.map */

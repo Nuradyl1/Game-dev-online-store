@@ -1,0 +1,100 @@
+.intro {
+  margin-bottom: 150px;
+  padding: 0 130px;
+  position: relative;
+}
+.intro__text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+.intro__text h5 {
+  font-size: 20px;
+  color: #E87D0E;
+  padding-bottom: 17px;
+}
+.intro__text h2 {
+  font-weight: 700;
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+.intro__text p {
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.intro__text button {
+  width: 200px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background-color: #E87D0E;
+}
+.intro__text #unity {
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  left: 549px;
+  top: 209px;
+}
+.intro__text #cry {
+  width: 101px;
+  height: 99px;
+  position: absolute;
+  left: 728px;
+  top: 0px;
+}
+.intro__text #unreal {
+  width: 59px;
+  height: 64px;
+  position: absolute;
+  left: 1008px;
+  top: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 100px;
+    box-sizing: border-box;
+  }
+  .intro__text {
+    width: auto;
+  }
+  .intro__text #unity, .intro__text #cry, .intro__text #unreal {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 50px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .intro__text {
+    width: auto;
+  }
+  .intro__text #unity, .intro__text #cry, .intro__text #unreal {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .intro {
+    padding: 0 30px;
+    margin-bottom: 50px;
+  }
+  .intro__text h2 {
+    font-size: 24px;
+  }
+  .intro__text button {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
